@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Add this to your HTML head -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" /> -->
+  
+    <title>GlobisTech | Home page</title>
+</head>
+<body>
+	<! ***** the container-fluid ***** >
+	<div class="container-fluid">
+    <%-include("partials/header.ejs")%>
+    <! ***** header ends here ***** >
+
+	    
+  <section class="about-section" id="aboutSec">
+    <div class="top-sec-title-con" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+      <h3 class="roboto-mono-font">ABOUT US</h3>
+      <hr>
+      <h5 class="top-sec-title">For your very specific industry,</h5>
+
+      <h5 class="top-sec-title">we have <span>highly-tailored IT solutions.</span></h5>
+    </div>
+
+    <div class="container inner-about">
+      <div class="about-us-top-sec" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+        <div class="top-sec-image-con">
+          <img class="top-sec-image" src="/images/brand-image/about_image_2.jpg" alt="about-us image">
+        </div>
+        
+        <div class="top-sec-desc-con" data-aos="fade-right" data-aos-delay="300" data-aos-duration="500">
+          <p class="top-sec-desc">
+            At <i>GlobisTech & IT Solutions</i>, we are dedicated to empowering individuals, businesses, and institutions with top-notch technology services and digital solutions. Founded with a passion for innovation and excellence, our company delivers a dynamic range of services designed to meet the needs of today’s fast-paced, tech-driven world.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container our-service-sec">
+      <h6 class="service-title roboto-mono-font" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">WHAT WE OFFER</h6>
+      <!-- <hr> -->
+      
+      <div class="inner-service-sec">
+        <div class="service-list-con" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+          <div class="servicer-list-image-sec">
+            <img class="service-list-image" src="/images/brand-image/web_dev_design_2.jpg" alt="web dev image">
+          </div>
+          
+          <div class="service-list-desc-sec">
+            <h3>Web Design and Development</h3>
+            <p class="service-list-desc">  Creating modern, responsive, and user-friendly websites that help businesses establish a strong online presence.
+            </p>
+            <button class="service-list-btn">Explore More</button>
+          </div>
+        </div>
+      
+        <div class="service-list-con" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+          <div class="servicer-list-image-sec">
+              <img class="service-list-image" src="/images/brand-image/online_empower_2.jpg" alt="web dev image">
+          </div>
+          
+          <div class="service-list-desc-sec">
+              <h3>
+                  IT Training and Empowerment
+              </h3>
+              <p class="service-list-desc">  
+                  Through GlobisTech Academy, we train individuals in essential digital skills, preparing them for global opportunities in the tech space.
+              </p>
+              <button class="service-list-btn">Explore More</button>
+          </div>
+        </div>
+      
+        <div class="service-list-con" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+          <div class="servicer-list-image-sec">
+              <img class="service-list-image" src="/images/brand-image/hosting_maintenance_2.jpg" alt="web dev image">
+          </div>
+            
+          <div class="service-list-desc-sec">
+            <h3>
+              Website Hosting and Management
+            </h3>
+            <p class="service-list-desc">  
+              Reliable web hosting and
+              expert management to keep your website fast, secure, and always online—so you stay focused.
+            </p>
+            <button class="service-list-btn">Explore More</button>
+          </div>
+        </div>
+      
+        <div class="service-list-con" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+            <div class="servicer-list-image-sec">
+                <img class="service-list-image" src="/images/brand-image/slaes_support_2.jpg" alt="web dev image">
+            </div>
+            
+            <div class="service-list-desc-sec">
+                <h3>
+                    Tech Sales and Support
+                </h3>
+                <p class="service-list-desc">  
+                    Providing high-quality laptops, accessories, and expert advice to help our clients choose the right tools for success.
+                </p>
+                <button class="service-list-btn">Explore More</button>
+            </div>
+        </div>
+      
+        <div class="service-list-con" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+            <div class="servicer-list-image-sec">
+                <img class="service-list-image" src="/images/brand-image/software_maintenace.jpg" alt="web dev image">
+            </div>
+            
+            <div class="service-list-desc-sec">
+                <h3>
+                    Software and Hardware Maintainance
+                </h3>
+                <p class="service-list-desc">  
+                    Providing high-quality laptops, accessories, and expert advice to help our clients choose the right tools for success.
+                </p>
+                <button class="service-list-btn">Explore More</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container extra-top-title" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+      <h4 class="roboto-mono-font">Our company</h4>
+      
+      <h3 class="extra-top-title-2">
+        Let's build the 
+        <span> future together!</span>
+      </h3>
+    </div>
+    
+    
+    <ul class="container service-extra">
+      <li class="service-extra-list" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+          <p>Our brand is built on <em>integrity, reliability, and innovation</em>, with a customer-first mindset. Whether you're a startup needing a digital foundation or a student aiming to level up in tech, we’ve got you covered.</p>
+      </li>
+  
+      <li class="service-extra-list" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+          <p>
+          With a team of dedicated professionals, cutting-edge tools, and a commitment to excellence, <em>GlobisTech & IT Solutions</em> is more than a service provider—we’re your trusted partner in digital growth.
+          </p>
+      </li>
+      <div class="anchor" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">
+          <a href="#">
+              Get in touch
+          </a>
+      </div>
+    </ul>
+  </section>
+	    
+  <section class="brand-record">
+    <video autoplay loop muted class="brand-record-bgVid" poster="assets/images/index-images/waev-image.webp">
+        <source src="/videos/index-video.mp4" type="video/mp4">
+    </video>
+
+    <div class="brand-record-desc">
+      <div class="record-desc-top">
+          <div class="record-title-sec" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+              <h5 class="title-thin">HIRE US, WHY NOT?</h5>
+              <h4 class="title-thick">How we claim to <span>excel?</span></h4>
+          </div>
+      </div>
+        
+      <div class="record-track">
+        <div class="record-track-list">
+          <h5>clients worked with</h5>
+          <h1><span class="count" data-target="500" data-aos="fade-up">0</span>+</h1>
+          <h5>HAPPY CLIENTS</h5>
+        </div>
+      
+      
+        <div class="record-track-list">
+          <h5>Successfully completed</h5>
+          <h1><span class="count" data-target="100" data-aos="fade-up">0</span>+</h1>
+          <h5>FINISHED PRPJECTS</h5>
+        </div>
+    
+        <div class="record-track-list">
+          <h5>Successfully trained</h5>
+          <h1><span class="count" data-target="1000" data-aos="fade-up">0</span></h1>
+          <h5>INTERN GRADUATES</h5>
+        </div>
+  
+        <div class="record-track-list">
+          <h5>Collaborates with</h5>
+          <h1><span class="count" data-target="20" data-aos="fade-up">0</span></h1>
+          <h5>TECH FIRMS</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  	
+  <section class="portfolio" id="portfolio">
+    <div class="portfolio-top-section">
+      <div class="record-title-sec" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+        <h5 class="title-thin">CASE STUDIES</h5>
+        <h3 class="title-thick">Proud projects that <span>makes us stand out</span></h3>
+      </div>
+      
+    <div class="carousel container">
+      <div class="slides" id="slides">
+        <div class="slide active-slide" id="slider">
+          <div class="card">
+            <div class="card-head-sec faint-gold">
+              <img class="portfolio-card-image" src="/images/brand-image/e-commerce_portfolio.png" alt="e-comm-snippet">
+            </div>
+            
+              <div class="card-body">
+                <div class="card-body-title-sec">
+                  <h4>E-commerce website</h4>
+                  <h6>Web development</h6>
+                </div>
+                
+                <div class="card-body-desc-sec">
+                  <p>We designed and developed a responsive online store for SwiftMall, integrating secure payment gateways, user-friendly product filters, and an admin dashboard for managing orders and inventory.
+                    Technologies Used: HTML, CSS, JavaScript, PHP</p>
+                </div>
+                
+                <div class="card-footer">
+                  <a href="">View case study</a>
+                </div>
+              </div>
+          </div>
+        </div>
+          
+        <div class="slide" id="slider">
+          <div class="card">
+            <div class="card-head-sec faint-blue">
+              <img class="portfolio-card-image" src="/images/brand-image/banking_portfolio.png" alt="online-banking-snippet">
+            </div>
+            
+            <div class="card-body">
+              <div class="card-body-title-sec">
+                <h4>Online banking dahsboard</h4>
+                <h6>Backend development</h6>
+              </div>
+              
+              <div class="card-body-desc-sec">
+                <p>We designed and developed a clean and secured api for a bank fin company, integrating secure payment gateways, transaction processing and tracking.
+                  Technologies Used: REACT, JavaScript, Nodejs</p>
+              
+                  <div class="card-footer">
+                    <a href="">View case study</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="slide" id="slider">
+          <div class="card">
+            <div class="card-head-sec faint-blue">
+              <img class="portfolio-card-image" src="/images/brand-image/shipping_portfolio.png" alt="online-banking-snippet">
+            </div>
+            
+            <div class="card-body">
+              <div class="card-body-title-sec">
+                <h4>Online shipping website</h4>
+                <h6>Web development</h6>
+              </div>
+              
+              <div class="card-body-desc-sec">
+                <p>We designed and developed a responsive online store for SwiftMall, integrating secure payment gateways, user-friendly product filters, and an admin dashboard for managing orders and inventory.
+                  Technologies Used: HTML, CSS, JavaScript, PHP</p>
+              
+                  <div class="card-footer">
+                    <a href="">View case study</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Dots -->
+      <div class="indicators">
+        <span class="dot active-dot" onclick="goToSlide(0)"></span>
+        
+        <span class="dot" onclick="goToSlide(1)"></span>
+        
+        <span class="dot" onclick="goToSlide(2)"></span>
+      </div>
+    </div>
+  </section>
+  	
+  	<section class="online-class-sec container">
+  	  <div class="online-sec-desc">
+  	    <h4 data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Want to level up in <span> TECH?</span></h4>
+  	    <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Join over 500 students in learning the dynamics of web developement, through GlobisTech academy online and physical classes.</p>
+  	    
+  	    <a href="signUp.html" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">Join us now</a>
+  	  </div>
+
+  	  <div class="online-sec-image-con">
+  	    <div class="image-sec" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+  	      <img src="/images/brand-image/online_class_portfolio.webp" alt="students learning">
+  	    </div>
+  	  </div>
+  	</section>
+  	
+  	<section class="faqs-quote container">
+  	  <div class="qoute" id="getQuote">
+  	    <div class="qoute-top">
+  	      <h3 data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">GET A QOUTE</h3>
+  	    </div>
+  	    <div class="qoute-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+  	      <form class="qoute-form" action="" method="">
+  	        <div class="qoute-field">
+  	          <label for="fullname">Full Name</label>
+  	          <input type="text" name="fullname" placeholder="Enter full name" id="fullname">
+  	        </div>
+  	        
+  	        <div class="qoute-field">
+  	          <label for="email">Email</label>
+  	          <input type="email" name="email" placeholder="Enter email" id="email">
+  	        </div>
+  	        
+  	        <div class="qoute-field">
+  	          <label for="message">Message</label>
+  	          <textarea cols="10" rows="5" name="message" placeholder="Enter message" id="message"></textarea>
+  	        </div>
+  	        <div class="qoute-field-btn">
+  	          <button type="submit" class="qoute-btn">Send qoute</button>
+  	        </div>
+  	      </form>
+  	    </div>
+  	  </div>
+  	  
+  	 <div class="faqs">
+  	    <div class="faqs-top-title">
+  	      <h2 class="faqs-title">FAQS</h2>
+  	    </div>
+  	    <div class="faqs-body">
+  	      <div class="faqs-body-card">
+  	        <div class="faqs-q">
+  	          <h6>What is GlobisTech</h6>
+  	          <h6 class="arrow activeArrow">></h6>
+  	        </div>
+  	        <div class="faqs-q-card openDropdown">
+  	          <p>poteyeheu udvgsgsg hdidieh hsgh gsusb hfbdhd hhyshdb usyeyhei tsgdhdh hshdgdg hbwhai iajejdj ywh wgsgau tehdh janh yshd tgg auwi owke hsbh fwtey hsbdj</p>
+  	        </div>
+  	      </div>
+  	      
+  	      <div class="faqs-body-card">
+  	        <div class="faqs-q">
+  	          <h6>Does GlobisTech have physical office?</h6>
+  	          <h6 class="arrow">></h6>
+  	        </div>
+  	        <div class="faqs-q-card">
+  	          <p>poteyeheu udvgsgsg hdidieh hsgh gsusb hfbdhd hhyshdb usyeyhei tsgdhdh hshdgdg hbwhai iajejdj ywh wgsgau tehdh janh yshd tgg auwi owke hsbh fwtey hsbdj</p>
+  	        </div>
+  	      </div>
+  	      
+  	      <div class="faqs-body-card">
+  	        <div class="faqs-q">
+  	          <h6>What can i learn from GlobisTech academy?</h6>
+  	          <h6 class="arrow">></h6>
+  	        </div>
+  	        <div class="faqs-q-card">
+  	          <p>poteyeheu udvgsgsg hdidieh hsgh gsusb hfbdhd hhyshdb usyeyhei tsgdhdh hshdgdg hbwhai iajejdj ywh wgsgau tehdh janh yshd tgg auwi owke hsbh fwtey hsbdj</p>
+  	        </div>
+  	      </div>
+  	      
+  	      <div class="faqs-body-card">
+  	        <div class="faqs-q">
+  	          <h6>Does GlobisTech offer nation wide delivery when you purchase from them?</h6>
+  	          <h6 class="arrow">></h6>
+  	        </div>
+  	        <div class="faqs-q-card">
+  	          <p>poteyeheu udvgsgsg hdidieh hsgh gsusb hfbdhd hhyshdb usyeyhei tsgdhdh hshdgdg hbwhai iajejdj ywh wgsgau tehdh janh yshd tgg auwi owke hsbh fwtey hsbdj</p>
+  	        </div>
+  	      </div>
+  	      
+  	      <div class="faqs-body-card">
+  	        <div class="faqs-q">
+  	          <h6>Is GlobisTech a trustworthy brand?</h6>
+  	          <h6 class="arrow">></h6>
+  	        </div>
+  	        <div class="faqs-q-card noborderBottom">
+  	          <p>poteyeheu udvgsgsg hdidieh hsgh gsusb hfbdhd hhyshdb usyeyhei tsgdhdh hshdgdg hbwhai iajejdj ywh wgsgau tehdh janh yshd tgg auwi owke hsbh fwtey hsbdj</p>
+  	        </div>
+  	      </div>
+  	    </div>
+  	  </div>
+  	</section>
+  	
+  	<%-include("partials/footer.ejs")%>
+	</div>
+	<! ***** container-fluid end ***** >
+	
+	
+	<!-- Add this before the closing body tag -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="/js/index.js"></script>
+  <script src="/js/nav.js"></script>
+  
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
