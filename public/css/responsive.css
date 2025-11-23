@@ -696,6 +696,11 @@
   .brand-banner{
     padding: 3rem 5% !important;
     border-radius: 0 0 2rem 2rem !important;
+
+    button{
+      padding: .7rem .8rem !important;
+      font-size: 12px !important;
+    }
   }
 
   .brand-banner::after{
@@ -718,7 +723,7 @@
 
   .about-us-top-sec{
     flex-direction: column;
-    padding: 2rem 1rem 1rem !important;
+    padding: 1rem 0rem 0rem !important;
     margin-top: 0rem;
     margin-bottom: 1.5rem !important;
 
@@ -797,6 +802,7 @@
 
   .carousel {
     .slides{
+      margin: 0 -5% !important;
       .slide{
         width: 100% !important;
 
@@ -804,19 +810,33 @@
           flex-direction: column;
 
           .card-head-sec{
-            height: 18rem !important;
+            height: 15rem !important;
             width: 100% !important;
           }
 
           .card-body{
             width: 100% !important;
-            padding: .5rem 2rem !important;
+            padding: .5rem 1rem !important;
 
             .card-body-desc-sec{
               p{
                 margin-bottom: .5rem !important;
               }
             }
+
+            .card-body-title-sec{
+              h4{
+                margin-bottom: 0rem !important;
+              }
+
+              h6{
+                margin-bottom: .5rem !important;
+              }
+            }
+          }
+
+          a{
+            padding: .6rem 2rem !important;
           }
         }
       }
@@ -854,12 +874,10 @@
 
   .links{
     display: grid !important;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 80% 20%;
-    height: 23rem !important;
+    grid-template-columns: 100%;
+    gap: 1.5rem;
 
     .social-handle{
-      grid-column: 1 / span 2;
       
       ul{
         display: flex;
@@ -867,6 +885,7 @@
         gap: 1.5rem;
         align-items: center;
         height: 100% !important;
+        padding-top: 1rem;
 
         li{
           width: 28px !important;
