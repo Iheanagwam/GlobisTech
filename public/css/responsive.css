@@ -714,8 +714,6 @@
 
     .inner-about{
       margin-bottom: 1.5rem !important;
-      padding-bottom: .5rem;
-      padding-top: 1rem;
     }
 
     .top-sec-title-con{
@@ -732,6 +730,10 @@
     .top-sec-image-con{
       width: 100% !important;
       height: 400px !important;
+
+      img{
+        border-radius: 1rem .5rem .5rem;
+      }
     }
 
     .top-sec-desc-con{
